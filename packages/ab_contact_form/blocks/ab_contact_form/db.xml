@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+    xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+
+  <table name="btAbContactForm">
+    <field name="bID" type="integer"><unsigned/><key/></field>
+    <field name="form_title" type="string" size="256"/>
+    <field name="email_to" type="string" size="256"/>
+    <field name="show_submit_error" type="boolean"><default value="1"/><notnull/></field>
+    <field name="email_subject" type="string" size="256"/>
+    <field name="form_button_text" type="string" size="100"/>
+    <field name="send_button_text" type="string" size="100"/>
+    <field name="blacklisted_domains" type="string" size="1024"/>
+    <field name="popup" type="boolean"><default value="0"/><notnull/></field>
+    <field name="show_captcha" type="boolean"><default value="0"/><notnull/></field>
+    <field name="wait_time" type="integer"><default value="60"/><notnull/></field>
+    <opt for="mysql" engine="InnoDB" charset="utf8" collate="utf8_unicode_ci"/>
+  </table>
+
+  <table name="btAbContactFormSpam">
+    <field name="ip" type="bigint"><unsigned/><notnull/></field>
+    <field name="timestamp" type="string" size="100"><notnull/></field>
+    <index name="ip"><unique /><col>ip</col></index>
+  </table>
+
+</schema>

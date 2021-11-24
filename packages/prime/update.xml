@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <blocktypes>
+      <blocktype handle="home_slider" package="prime"/> 
+    </blocktypes>
+    <blocktypesets>
+ <blocktypeset handle="bwk" name="BWK" package="prime">
+          <blocktype handle="home_slider"/> 
+       </blocktypeset>
+    </blocktypesets>
+</concrete5-cif>

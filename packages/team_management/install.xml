@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+  <attributekeys>
+    <attributekey handle="team_management_section" name="Team Management" package="team_management" searchable="1" indexed="0"
+			type="boolean" category="collection"/>
+    <attributekey handle="team_image" name="Thumb Image" package="team_management" searchable="1" indexed="1"
+			  type="image_file" category="collection"/>
+    <attributekey handle="team_designation" name="Designation" package="team_management" searchable="1" indexed="2"
+			  type="text" category="collection"/>
+    <attributekey handle="team_desc" name="Description" package="team_management" searchable="1" indexed="2"
+			  type="textarea" category="collection"/>
+  </attributekeys>
+  <attributesets>
+    <attributeset handle="team_management" name="Team Management" package="" locked="0" category="collection">
+      <attributekey handle="team_image"/>
+      <attributekey handle="team_desc"/>
+      <attributekey handle="team_designation"/>
+    </attributeset>
+  </attributesets>
+  <singlepages>
+    <page name="Team Management" path="/dashboard/team_management" filename="/dashboard/team_management/view.php" 
+              package="team_management"/>
+    <page name="Team List" path="/dashboard/team_management/team_management_list"
+              filename="/dashboard/team_management/team_management_list.php" 
+              package="team_management"/>
+    <page name="Add/Edit" path="/dashboard/team_management/add_edit" filename="/dashboard/team_management/add_edit.php"
+              pagetype="" description=""
+              package="team_management"/>
+    <page name="Settings" path="/dashboard/team_management/settings"
+              filename="/dashboard/team_management/settings.php" 
+              package="team_management"/>
+  </singlepages>
+</concrete5-cif>

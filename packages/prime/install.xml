@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <themes>
+        <theme handle="bwk" package="prime" activated=""/>
+    </themes>
+</concrete5-cif>

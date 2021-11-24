@@ -1,0 +1,63 @@
+.pallet-rows-container .palette-rows .palette-row {
+    margin-bottom: 10px;
+}
+
+.pallet-rows-container .palette-rows .palette-row input {
+    margin-bottom: 10px;
+}
+
+.pallet-rows-container .palette-rows .palette-row .palette-color .form-group {
+    position: relative;
+    padding-right: 30px;
+}
+
+.pallet-rows-container .palette-rows .palette-row .palette-color .btn-delete-color {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: #d9534f;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    border-radius: 3px;
+    display: none;
+}
+
+.pallet-rows-container .palette-rows .palette-row .palette-color .btn-delete-color:hover {
+    background-color: #ac2925;
+}
+
+.pallet-rows-container .palette-rows .palette-row .palette-color .btn-delete-color .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    left: 50%;
+    color: #fff;
+}
+
+.pallet-rows-container .palette-rows .palette-row .palette-color + .palette-color .btn-delete-color {
+    display: inline-block;
+}
+
+.pallet-rows-container .palette-rows .palette-row + .palette-row {
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+}
+
+.pallet-rows-container .palette-rows .palette-row .btn-delete-row {
+    display: none;
+}
+
+.pallet-rows-container .palette-rows .palette-row + .palette-row .btn-delete-row {
+    display: inline-block;
+}
+
+.pallet-rows-container .alert .table {
+    margin: 10px 0 0 0;
+}
+
+.ccm-ui .block-designer-container .content-fields .content-field:nth-child(odd)[data-type="color_picker"] .pallet-rows-container .palette-rows .palette-row + .palette-row {
+    border-top-color: #ececec;
+}

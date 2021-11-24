@@ -1,0 +1,89 @@
+/* CSS Document */
+
+#all-teachers th{font-size:14px;}
+#prod-wrapper{color:#339fc6; font-family:Arial, Helvetica, sans-serif;}
+a{ cursor:pointer;}
+.third {width:30%;}
+div {float:left;}
+.f-left{float:left;}
+.f-right{float:right;}
+.center{text-align:center;}
+.block{display:block;}
+
+.grad{
+
+background: #e5e5e5; /* Old browsers */
+
+}
+
+.prod-dialog-form lable{ 
+width:150px; 
+display:block; }
+
+.hidden{ 
+display:none !important;}
+.min-t{font-size:12px;}
+.min-t span{
+width:40px;
+display:inline-block;
+}
+
+h2{color:#b2d136; 
+margin:0 0 10px 0;
+}
+
+.info-column{
+padding:10px 1%; 
+height:185px; margin: 0 0.5%;
+}
+.info-column p{font-size:12px;}
+table#expense-table{
+margin-top:40px;
+border-spacing: 0px;
+ border:1px solid #caecf8;
+  padding:1px;
+  font-size:12px;
+  }
+td,th{ }
+
+#expense-table th{
+text-align:left; 
+background:#cedee4; 
+color:#1a90ba;
+font-size:14px;
+
+}
+#expense-table th:nth-child(even){ 
+background:#e2eaed;
+}
+#expense-table tr, #expense-table tr td{
+border-bottom:1px solid #becbd0;
+border-top:1px solid #becbd0;
+}
+#expense-table tr td:nth-child(odd){
+
+background:#e3eef2; 
+
+}
+
+.prod-bt{
+color:white; 
+background:#b1d038; 
+border-radius:5px; 
+font-weight:bold; 
+padding:5px 10px;
+}
+
+#nav-container a{
+display:block;
+float:left;
+color:white;
+font-size:18px;
+padding:10px;
+}
+
+#t-info p{ margin:5px 0;}
+
+#t-info td>:nth-child(2){ margin:5px 0 10px 0;}
+/* CSS Document */
+

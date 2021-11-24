@@ -1,0 +1,6 @@
+public function vimeoPlayerID($link)
+    {
+        $regexstr = '~(?:<iframe [^>]*src=")?(?:https?:\/\/(?:[\w]+\.)*vimeo\.com(?:[\/\w:]*(?:\/videos)?)?\/([0-9]+)[^\s]*)"?(?:[^>]*><\/iframe>)?(?:<p>.*<\/p>)?~ix';
+        preg_match($regexstr, $link, $matches);
+        return $matches ? $matches[1] : false;
+    }

@@ -1,0 +1,23 @@
+English
+
+# Installation Instruction
+
+1. Unzip this file in your site's packages/ directory
+2. Login to your site as an administrator
+3. Find the "Add Functionality" page in your dashboard
+4. Find this package in the list of packages awaiting installation
+5. Click the "install" button
+6. Find the System & Settings -> Permissions & Access -> Captcha Setup page in your dashboard and select Customized Securimage Captcha
+
+
+
+Русский
+
+# Инструкция по установке
+
+1. Разархивируйте этот файл в папку packages/
+2. Войдите на ваш сайт как администратор
+3. Найдите страницу Расширения Concrete5 в Панели Управления
+4. Найдите этот пакет в списке пакетов ожидающих установки
+5. Кликните кнопку Установка
+6. Найдите страницу Настройки системы -> Права и доступ -> Настройки Captcha в Панели Управления и выберите Кастомизированная Securimage Captcha

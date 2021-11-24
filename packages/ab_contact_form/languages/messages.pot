@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ab_contact_form 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-30T19:05:05+11:00\n"
+"PO-Revision-Date: 2020-04-30T19:05:05+11:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/ab_contact_form/controller.php:39
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:64
+msgid "Add contact form with advanced security features"
+msgstr ""
+
+#: packages/ab_contact_form/controller.php:44
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:69
+msgid "Advanced Contact Form"
+msgstr ""
+
+#: packages/ab_contact_form/controller.php:53
+msgid "Customized Securimage Captcha"
+msgstr ""
+
+#: packages/ab_contact_form/elements/dashboard/install_post.php:26
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:166
+msgid "captcha configuration"
+msgstr ""
+
+#: packages/ab_contact_form/elements/dashboard/install_post.php:33
+msgid "Securimage open-source free PHP Captcha script"
+msgstr ""
+
+#: packages/ab_contact_form/elements/dashboard/install_post.php:34
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:184
+msgid "You installed the new contact form with advanced security features. Go to the system %s to complete captcha setup."
+msgstr ""
+
+#: packages/ab_contact_form/elements/dashboard/install_post.php:35
+msgid "Check out Securimage site if you want to learn more about how to get started with the %s captcha system."
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:80
+msgid "Name must be 2 to 100 symbols"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:81
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:351
+msgid "Email entered incorrectly"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:82
+msgid "Message must be 10 to 1000 symbols"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:83
+msgid "Banned words detected"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:84
+msgid "Code from picture entered incorrectly"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:85
+msgid "To prevent spam and abusing contact form, sending messages from IP address %s is prohibited"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:86
+msgid "To prevent spam and abusing contact form, sending messages with domain %s is prohibited"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:87
+msgid "Confirmation of validity of domain %s failed"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:88
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:89
+msgid "Message has not been sent. If you experience difficulties sending your message, please send it by email to %s."
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:90
+msgid "Your message has already been sent, please wait for %s before sending another one"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:91
+msgid "Errors found:"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:92
+msgid "Your message has been sent. Thank you."
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:108
+msgid "Name"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:109
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:111
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:48
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:56
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:85
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:93
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:121
+msgid "Max 100 symbols"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:110
+msgid "Email"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:112
+msgid "Message"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:113
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:143
+msgid "Max 1000 symbols"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:114
+msgid "Code check"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:115
+msgid "Code from picture 4-6 symbols"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:116
+msgid "Click on picture to reload code"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:231
+msgid "seconds"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:233
+msgid "minutes"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:236
+msgid "hours"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:269
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:289
+msgid "Date: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:271
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:291
+msgid "Host IP: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:272
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:292
+msgid "Host Name: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:273
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:293
+msgid "Proxy IP: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:274
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:294
+msgid "Proxy Name: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:275
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:297
+msgid "Name: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:276
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:298
+msgid "Email: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:277
+#: packages/ab_contact_form/blocks/ab_contact_form/controller.php:300
+msgid "Message: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:46
+msgid "Form title"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:47
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:120
+msgid "Contact Form"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:54
+msgid "Send form to email"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:54
+#: packages/ab_contact_form/blocks/ab_contact_form/view.php:56
+#: packages/ab_contact_form/blocks/ab_contact_form/view.php:65
+#: packages/ab_contact_form/blocks/ab_contact_form/view.php:74
+#: packages/ab_contact_form/blocks/ab_contact_form/view.php:101
+#: packages/ab_contact_form/blocks/ab_contact_form/view.php:120
+msgid "Required"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:65
+msgid "Show the following message if form submission fails?"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:74
+msgid "[YOUR EMAIL]"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:75
+msgid "Note: That [YOUR EMAIL] address will be shown on the form if submission fails"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:83
+msgid "Email subject"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:84
+msgid "Question from website"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:91
+msgid "Form send button text"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:92
+msgid "Send"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:99
+msgid "Wait (seconds) between form submissions"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:101
+msgid "Values from 0 to 86400 (86400 sec = 24 h)"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:110
+msgid "Lightboxed form?"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:119
+msgid "Form popup button text"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:132
+msgid "Blacklist domains?"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:141
+msgid "Blacklisted domains (comma separated)"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:154
+msgid "Show Captcha?"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:167
+msgid "Available captcha libraries: "
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:175
+msgid "(currently in use)"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:185
+msgid "Go to %s if you want to change the system captcha library"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:202
+msgid "Email address error:"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:203
+msgid "Email address entered is not valid!"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:222
+msgid "Oops"
+msgstr ""
+
+#: packages/ab_contact_form/blocks/ab_contact_form/form.php:223
+msgid "Numbers only!"
+msgstr ""

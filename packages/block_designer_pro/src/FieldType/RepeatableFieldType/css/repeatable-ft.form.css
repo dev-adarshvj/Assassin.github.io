@@ -1,0 +1,128 @@
+div.ui-dialog .ui-dialog-content .sortable-items div.form-group {
+    margin: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+div.ui-dialog .ui-dialog-content .sortable-items div.form-group + .form-group {
+    margin-top: 10px;
+}
+
+.sortable-items-wrapper .sortable-items  {
+    margin: 10px 0;
+}
+
+.sortable-items .sortable-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.sortable-items .sortable-item .redactor-box {
+    margin-bottom: 0;
+}
+
+.sortable-items .sortable-item .sortable-item-title {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.sortable-items .sortable-item .sortable-item-inner {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.sortable-items .sortable-item .sortable-item-title span {
+    font-weight: bold;
+}
+
+.sortable-items .sortable-item .sortable-item-handle {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    opacity: 0.5;
+    transition: all 0.2s ease;
+}
+
+.sortable-items .sortable-item .sortable-item-handle:focus,
+.sortable-items .sortable-item .sortable-item-handle:hover,
+.sortable-items .sortable-item .sortable-item-handle:active {
+    cursor: move;
+    opacity: 1;
+}
+
+.sortable-items .sortable-item.collapsed .sortable-item-inner {
+    display: none;
+}
+
+.sortable-items .sortable-item .sortable-item-collapse-toggle {
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+
+.sortable-items .sortable-item .sortable-item-collapse-toggle:hover {
+    cursor: pointer;
+}
+
+.sortable-items .sortable-item .sortable-item-collapse-toggle:before,
+.sortable-items .sortable-item .sortable-item-collapse-toggle:after {
+    content: " ";
+    width: 1px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    left: 6px;
+    top: 4px;
+}
+
+.sortable-items .sortable-item .sortable-item-collapse-toggle:before {
+    display: none;
+}
+
+.sortable-items .sortable-item .sortable-item-collapse-toggle:after {
+    width: 5px;
+    height: 1px;
+    left: 4px;
+    top: 6px;
+}
+
+.sortable-items .sortable-item.collapsed .sortable-item-collapse-toggle:before {
+    display: block;
+}
+
+.sortable-items .sortable-item.no-collapse .sortable-item-handle {
+    left: 10px;
+}
+
+.sortable-items .sortable-item.no-collapse .sortable-item-collapse-toggle {
+    display: none;
+}
+
+.sortable-items .sortable-item + .sortable-item {
+    margin-top: 5px;
+}
+
+.sortable-items .sortable-item .sortable-item-delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #bd0000;
+    transition: all 0.2s ease;
+}
+
+.sortable-items .sortable-item .sortable-item-delete:hover {
+    color: #7b0000;
+}
+
+.sortable-items .sortable-item.sortable-item-placeholder {
+    border: 1px solid #ccc;
+    background: #efefef;
+}

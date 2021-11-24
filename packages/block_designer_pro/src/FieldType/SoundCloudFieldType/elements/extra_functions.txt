@@ -1,0 +1,6 @@
+public function soundCloudUrl($link)
+    {
+        $regexstr = '~(?:<iframe [^>]*src=")?(?:https?:\/\/(?:[\w]+\.)*soundcloud\.com(.*)?\/(.*)[^\s]*)"?(?:[^>]*><\/iframe>)?(?:<p>.*<\/p>)?~ix';
+        preg_match($regexstr, $link, $matches);
+        return $matches ? $matches[1] : false;
+    }

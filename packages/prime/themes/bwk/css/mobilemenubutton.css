@@ -1,0 +1,126 @@
+@charset "utf-8";
+.mean-container a.meanmenu-reveal.meanclose {
+	-webkit-transform: scale3d(.8, .8, .8);
+	transform: scale3d(.8, .8, .8);
+	top: -40px
+}
+.mean-container a.meanmenu-reveal {
+	padding: 9px 0;
+	transition: .3s;
+	cursor: pointer;
+	user-select: none;
+	border-radius: .57143rem;
+	display: inline-block;
+	margin: 0 15px;
+	border: none;
+	background: 0 0
+}
+.mean-container a.meanmenu-reveal span {
+	width: 30px;
+	height: 3px;
+	background: #fff;
+	border-radius: .28571rem;
+	transition: .3s;
+	position: relative;
+	display: block
+}
+.mean-container a.meanmenu-reveal span:before {
+	top: 7px
+}
+.mean-container a.meanmenu-reveal span:after, .mean-container a.meanmenu-reveal span:before {
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	background: #000;
+	border-radius: .28571rem;
+	transition: .3s;
+	position: absolute;
+	left: 0;
+	content: '';
+	-webkit-transform-origin: .28571rem center;
+	transform-origin: .28571rem center
+}
+.mean-container a.meanmenu-reveal span:after {
+	top: 14px
+}
+.mean-container a.meanmenu-reveal.meanclose span {
+	background: 0 0!important
+}
+.mean-container a.meanmenu-reveal.meanclose span:before {
+	-webkit-transform: rotate3d(0, 0, 1, 45deg);
+	transform: rotate3d(0, 0, 1, 45deg)
+}
+.mean-container a.meanmenu-reveal.meanclose span:after {
+	-webkit-transform: rotate3d(0, 0, 1, -45deg);
+	transform: rotate3d(0, 0, 1, -45deg)
+}
+.mean-container a.meanmenu-reveal.meanclose span:after, .mean-container a.meanmenu-reveal.meanclose span:before {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	top: 0;
+	width: 100%
+}
+@charset "utf-8";
+@charset "utf-8";
+.mean-container a.meanmenu-reveal.meanclose {
+	-webkit-transform: scale3d(.8, .8, .8);
+	transform: scale3d(.8, .8, .8);
+	top: -50px
+}
+.mean-container a.meanmenu-reveal {
+	padding: 9px 0;
+	transition: .3s;
+	cursor: pointer;
+	user-select: none;
+	border-radius: .57143rem;
+	display: inline-block;
+	margin: 0 15px;
+	border: none;
+	background: 0 0
+}
+.mean-container a.meanmenu-reveal span {
+	width: 30px;
+	height: 3px;
+	background: #000;
+	border-radius: .28571rem;
+	transition: .3s;
+	position: relative;
+	display: block
+}
+.mean-container a.meanmenu-reveal span:before {
+	top: 7px
+}
+.mean-container a.meanmenu-reveal span:after, .mean-container a.meanmenu-reveal span:before {
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	background: #000;
+	border-radius: .28571rem;
+	transition: .3s;
+	position: absolute;
+	left: 0;
+	content: '';
+	-webkit-transform-origin: .28571rem center;
+	transform-origin: .28571rem center
+}
+.mean-container a.meanmenu-reveal span:after {
+	top: 14px
+}
+.mean-container a.meanmenu-reveal.meanclose span {
+	background: 0 0!important
+}
+.mean-container a.meanmenu-reveal.meanclose span:before {
+	-webkit-transform: rotate3d(0, 0, 1, 45deg);
+	transform: rotate3d(0, 0, 1, 45deg)
+}
+.mean-container a.meanmenu-reveal.meanclose span:after {
+	-webkit-transform: rotate3d(0, 0, 1, -45deg);
+	transform: rotate3d(0, 0, 1, -45deg)
+}
+.mean-container a.meanmenu-reveal.meanclose span:after, .mean-container a.meanmenu-reveal.meanclose span:before {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	top: 0;
+	width: 100%
+}
+/* CSS Document */

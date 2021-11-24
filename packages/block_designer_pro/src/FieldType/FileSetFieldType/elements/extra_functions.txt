@@ -1,0 +1,10 @@
+protected function getFileSetOptions()
+	{
+		$fsl = new FileSetList();
+		$fileSets = $fsl->get();
+		$return = ['' => sprintf('-- %s --', t("Select"))];
+		foreach ($fileSets as $fs) {
+			$return[$fs->getFileSetID()] = $fs->getFileSetDisplayName();
+		}
+		return $return;
+	}
